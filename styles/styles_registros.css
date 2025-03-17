@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    background: #2E947F;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navbar .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    color: #316157;
+    margin-top: 20px;
+}
+
+/* Filtro */
+.filtro {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filtro label {
+    font-size: 16px;
+    color: #333;
+}
+
+.filtro input {
+    padding: 8px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filtro button {
+    padding: 8px 12px;
+    border: none;
+    background: #2E947F;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filtro button:hover {
+    background: #267963;
+}
+
+/* Tabla */
+table {
+    margin: 20px auto;
+    width: 95%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+th, td {
+    border: 1px solid #316157;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #2E947F;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Efecto hover en filas */
+tr:hover {
+    background-color: #d9f2ec;
+}
